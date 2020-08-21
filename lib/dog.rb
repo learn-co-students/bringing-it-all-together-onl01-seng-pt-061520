@@ -46,7 +46,7 @@ class Dog
         id = array[0]
         name = array[1]
         breed = array[2]
-        Dog.create(name: name, breed: breed)
+        Dog.new(name: name, breed: breed)
     end
 
     def self.find_by_id(id)
