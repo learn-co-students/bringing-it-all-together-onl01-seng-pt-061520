@@ -92,6 +92,7 @@ def self.find_by_name(name)
   
   DB[:conn].execute(sql, name).map do |row|
     self.new_from_db(row)
+  end.first
 end
 
 end
