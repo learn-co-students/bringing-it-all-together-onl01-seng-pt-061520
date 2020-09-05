@@ -52,7 +52,7 @@ end
   end
   
   def self.new_from_db
-    
+    new_dog
   end
   
 end
