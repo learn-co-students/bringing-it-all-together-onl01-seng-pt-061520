@@ -82,3 +82,5 @@ def self.find_of_create_by(name:, breed)
   end
   dog
 end
+
+end
